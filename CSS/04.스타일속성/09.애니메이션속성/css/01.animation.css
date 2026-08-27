@@ -24,7 +24,7 @@
   /* from { left: 0; } */
   /* to { left: 1000px; } */
   0% { left: 0; }
-  50% { left: calc(100% - 200px); transform: rotate(350deg); }
+  50% { left: calc(100% - 200px); transform: rotate(360deg); }
   100% { left: 0; }
 }
 

@@ -84,7 +84,7 @@
   background-color: aqua;
   transition-duration: 2s;
   /* 3차 베지어 곡선으로 전환속도를 지정 */
-  transition-timing-function: cubic-bezier(.12,1.09,.94,-0.5);
+  transition-timing-function: cubic-bezier(.59,.38,.41,.9);
 }
 
 .transition10:hover {
