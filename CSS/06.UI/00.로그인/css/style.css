@@ -1,0 +1,74 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* 전체 영역 */
+body {
+    margin: 0;
+    background-color: #f5f6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    height: 100vh;
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 30px 26px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+/* 입력 필드 영역 */
+.field { margin-bottom: 18px; }
+.field label { 
+    display: block; 
+    font-size: 14px; 
+    margin-bottom: 6px; 
+    color: #333;
+}
+.field input {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.actions a {
+    color: #5b6b94;
+    text-decoration: none;
+}
+.loginBox .btn {
+    width: 100%;
+    padding: 12px 14px;
+    background-color: #2d6cff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.loginBox .btn:hover {
+    filter: brightness(90%);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
+.joinBox { text-align: center; margin-top: 18px; }
+.joinBox .small { font-size: 14px; color: #666; }
+.joinBox a { color: #2d6cff; text-decoration: none; font-weight: 500; }

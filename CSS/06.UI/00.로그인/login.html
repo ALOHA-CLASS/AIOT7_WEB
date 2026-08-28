@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>로그인</h1>
+        <form action="" id="loginForm">
+            <div class="field">
+                <label for="username">아이디</label>
+                <input type="text" id="username" name="username"
+                    placeholder="아이디를 입력해주세요." required>
+            </div>
+
+            <div class="field">
+                <label for="password">비밀번호</label>
+                <input type="password" id="password" name="password"
+                    placeholder="비밀번호를 입력해주세요." required>
+            </div>
+
+            <div class="actions">
+                <label for="rememberId">
+                    <input type="checkbox" name="rememberId" id="rememberId">
+                    로그인 유지
+                </label>
+                <a href="" id="forgotPassword">비밀번호를 잊으셨나요?</a>
+            </div>
+
+            <div class="loginBox">
+                <button class="btn" type="submit">로그인</button>
+            </div>
+
+            <div class="joinBox">
+                <p class="small">아직 계정이 없으신가요? <a href="">회원가입</a></p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
