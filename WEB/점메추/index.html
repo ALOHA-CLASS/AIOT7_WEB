@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>점메추</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 전체 카드 -->
+    <div class="app">
+        <h1 class="title">오늘 점심 뭐 먹지?</h1>
+        <!-- 메뉴 카드 -->
+        <div class="menu-card" id="menuCard">
+            <span class="menu-emoji" id="menuEmoji">👩‍💼</span>
+            <div class="menu-name" id="menuName">점메추 Go!</div>
+            <span class="menu-tag" id="menuTag">추천 중</span>
+        </div>
+
+        <button id="btnPick" class="btn-pick">추천!!!</button>
+
+        <p class="counter"><span id="count">0</span>번째 추천!!!</p>
+
+        <div class="menu-preview" id="menuPreview"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
